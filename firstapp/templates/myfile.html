@@ -1,0 +1,21 @@
+
+
+<html>
+<head>
+      {% load static %}
+  <meta charset="utf-8">
+     <title>Displaying Images</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<h1>
+
+  This is sample Image for display
+  <img src={% static '/images/myimage.jpg' %}
+       width="1000"
+       height="400"
+       alt="My image">
+
+</h1>
+</body>
+</html>
